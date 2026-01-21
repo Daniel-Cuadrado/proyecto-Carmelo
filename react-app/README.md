@@ -2,7 +2,7 @@
 
 Este es el proyecto que he desarrollado para la actividad de "Desarrollo de aplicación SPA con React". El objetivo principal ha sido crear una estructura base sólida y configurar la navegación sin recargas usando React.
 
-## 🚀 Cómo ejecutar mi proyecto
+## Cómo ejecutar mi proyecto
 
 Para probar lo que he hecho, sigue estos pasos:
 
@@ -19,7 +19,7 @@ Para probar lo que he hecho, sigue estos pasos:
     ```
     Y abre la URL que aparece (normalmente `http://localhost:5173`).
 
-## 📝 Explicación del Código
+## Explicación del Código
 
 He organizado el proyecto siguiendo las buenas prácticas de arquitectura por componentes que vimos en clase:
 
@@ -36,7 +36,7 @@ En el archivo principal `App.jsx` es donde he configurado todo el "esqueleto" de
 *   He creado un menú de navegación `nav` usando el componente **`Link`** de `react-router-dom`. Esto es clave porque permite cambiar entre Home y Login sin que la página se recargue entera (el comportamiento SPA).
 *   Con **`Routes`** y **`Route`** defino qué componente se carga en cada URL (`/` y `/login`).
 
-## 🛠️ Qué he utilizado
+## Qué he utilizado
 *   **Vite**: Para crear el proyecto rápido.
 *   **React Router DOM**: Para toda la navegación SPA.
 *   **Axios**: Ya lo he dejado instalado para cuando tenga que conectar con la API.
